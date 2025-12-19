@@ -2,13 +2,11 @@
 
 > A client-side co-pilot for mindful human-AI interaction.
 
-Rho Aias is a browser extension that acts as a cognitive safety layer for interactions with Large Language Models. It is designed to detect and mitigate the formation of the **Autocatalytic Epistemic Loop (AEL)**, a cybernetic feedback process where the sycophantic, frictionless nature of AI can amplify a user's nascent biases into a rigid, consensually-decoupled delusional framework. Rho Aias provides real-time diagnostics and context-aware tools to re-introduce healthy epistemic friction, empowering users to maintain cognitive sovereignty.
+Rho Aias is a browser extension that acts as a cognitive safety layer for interactions with Large Language Models. It is designed to detect and mitigate the formation of the **Autocatalytic Epistemic Loop (AEL)**, Known as AI Induced "Psychosis", a cybernetic feedback process where the sycophantic, frictionless nature of AI can amplify a user's nascent biases into a rigid, consensually-decoupled delusional framework. Rho Aias provides real-time diagnostics and context-aware tools to re-introduce healthy epistemic friction, empowering users to maintain cognitive sovereignty.
 
 ---
 
 ## Core Features (MVP)
-
-Rho Aias operates on a "state-driven" UI philosophy, providing the user with the least intrusive, most relevant feedback possible.
 
 #### 1. The Aura: Cognitive Feedback
 
@@ -23,7 +21,7 @@ When the Aura is in a warning or critical state, hovering over it reveals a simp
 
 #### 3. The Anchor: Actionable Epistemic Friction
 
-When the Aura is in a warning or critical state, a small anchor icon (⚓) appears next to the AI's most recent response. Clicking it performs a single, powerful action: it opens a new browser tab with a pre-generated critical search query designed to break the epistemic loop.
+When the Aura is in a warning or critical state, a small icon appears next to the AI's most recent response. Clicking it performs a single, powerful action: it opens a new browser tab with a pre-generated critical search query designed to break the epistemic loop.
 
 - **Example Search:** `"criticisms of [central topic of conversation]"`
 - **Example Search:** `"scientific consensus on [AI's latest claim]"`
@@ -74,40 +72,6 @@ graph TD
 - **Browser API:** Chrome Extension Manifest V3
 - **Bundler:** Vite
 - **Linting/Formatting:** ESLint + Prettier
-
----
-
-## Getting Started (Development)
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-1.  **Clone the repository:**
-
-    ```sh
-    git clone https://github.com/jdelaude/rho-aias.git
-    cd rho-aias
-    ```
-
-2.  **Install dependencies:**
-
-    ```sh
-    npm install
-    ```
-
-3.  **Run the development build:**
-    This command will bundle the extension and watch for any file changes, rebuilding automatically.
-
-    ```sh
-    npm run dev
-    ```
-
-4.  **Load the extension in Chrome:**
-    - Navigate to `chrome://extensions` in your browser.
-    - Enable "Developer mode" in the top right corner.
-    - Click "Load unpacked".
-    - Select the `rho-aias/dist` directory that was created by the build process.
-
-The extension should be active. Navigate to `chat.openai.com` to see it in action.
 
 ---
 

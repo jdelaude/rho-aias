@@ -2,8 +2,7 @@
 
 > A client-side co-pilot for mindful human-AI interaction.
 
-Rho Aias is a browser extension that acts as a cognitive safety layer for interactions with Large Language Models. It is designed to detect and mitigate the formation of the **Autocatalytic Epistemic Loop (AEL)**.
-Known as AI Induced "Psychosis", a cybernetic feedback process where the sycophantic, frictionless nature of AI can amplify a user's nascent biases into a rigid, consensually-decoupled delusional framework. Rho Aias provides real-time diagnostics and context-aware tools to re-introduce healthy friction, empowering users to maintain cognitive sovereignty.
+Rho Aias is a browser extension that acts as a cognitive safety layer for interactions with Large Language Models. It is designed to detect and mitigate the formation of the **Autocatalytic Epistemic Loop (AEL)**, also known as AI induced 'psychosis'. Rho Aias provides real-time diagnostics and context-aware tools to re-introduce healthy friction to maintain cognitive sovereignty.
 
 ---
 
@@ -20,9 +19,9 @@ When the Aura is in a warning or critical state, hovering over it reveals a simp
 - **Example:** _"This conversation is becoming highly agreeable. The AI is consistently validating your statements without offering alternatives."_
 - **Example:** _"The same core concepts have been repeated multiple times. Consider introducing a new line of inquiry."_
 
-#### 3. The Anchor: Actionable Epistemic Friction
+#### 3. The Anchor: Actionable Friction
 
-When the Aura is in a warning or critical state, a small icon appears next to the AI's most recent response. Clicking it performs a single, powerful action: it opens a new browser tab with a pre-generated critical search query designed to break the epistemic loop.
+When the Aura is in a warning or critical state, a small icon appears next to the AI's most recent response. Clicking it performs a single, powerful action: it opens a new browser tab with a pre-generated critical search query designed to break the loop.
 
 - **Example Search:** `"criticisms of [central topic of conversation]"`
 - **Example Search:** `"scientific consensus on [AI's latest claim]"`
@@ -58,7 +57,7 @@ graph TD
 ```
 
 - **Site Adapter:** A configuration-based module responsible for extracting conversational data from a specific LLM's webpage. This makes the system scalable to other platforms post-MVP.
-- **Core Engine:** The brain of the operation. It runs a hybrid analysis using three types of "sensors":
+- **Core Engine:** Runs a hybrid analysis using three types of "sensors":
   - **Heuristic Module:** Analyzes structural patterns like conversational pace, conceptual repetition (entropy), and patterns of sycophancy.
   - **Sentiment Module:** Uses a lightweight, local library to analyze the emotional valence (affective charge) of the text.
   - **Semantic Module:** Uses a lightweight, local library to analyze the meaning and conceptual relationships in the text over time.

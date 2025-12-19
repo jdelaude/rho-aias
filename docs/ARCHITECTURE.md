@@ -74,7 +74,7 @@ rho-aias/
 
 ### 3.1 The Site Adapter (`/src/content/adapter/`)
 
-This module is the sensory organ of the system with read-only access to the host webpage's DOM. Its sole purpose is to observe the page, parse conversations, and translate them into a clean, abstract format, completely insulating the rest of the system from the brittleness of the web.
+This module is the sensory organ of the system with read-only access to the host webpage's DOM.
 
 - **Purpose:** To observe the DOM, parse conversational turns, and emit a standardized data object.
 - **Inputs:** The `window.document` object of the host page.
@@ -139,7 +139,7 @@ This module is the "headless" brain of the application. It is a stateful logic c
 
 ### 3.3 The UI Modules (`/src/content/ui/`)
 
-These modules are the actuators of the system that live on the host page. They contain no application logic; their only job is to receive a `UIState` object from the Core Engine and render the corresponding changes to the DOM.
+These modules are the actuators of the system that live on the host page. Contain a `UIState` object from the Core Engine and render the corresponding changes to the DOM.
 
 - **Purpose:** To render visual feedback and interactive tools onto the host page.
 - **Inputs:** A `UIState` object from the Core Engine.

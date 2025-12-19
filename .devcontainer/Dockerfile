@@ -1,7 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
 
 # 2. Install GitHub CLI (gh) and other utilities
-# The base image is Debian-based, so we use apt-get
 RUN type -p curl >/dev/null || (apt-get update && apt-get install -y curl)
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
     && chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \

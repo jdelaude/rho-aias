@@ -10,7 +10,7 @@ Rho Aias is a browser extension that acts as a cognitive safety layer for intera
 
 #### 1. The Aura: Cognitive Feedback
 
-A single, ambient UI element (a dot or a thin line) that provides at-a-glance feedback on the health of the current conversation. Its color shifts from Green (healthy, exploratory) to Yellow (warning, looping) to Red (critical, decoupled), reflecting the real-time AEL Threat Score.
+A single, ambient UI element (a thin frame) that provides permanent feedback on the health of the current conversation. Its color shifts from White (healthy, exploratory) to Yellow (warning, looping) to Red (critical, decoupled), reflecting the real-time AEL Threat Score.
 
 #### 2. The Diagnostic: On-Demand Clarity
 

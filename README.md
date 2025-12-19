@@ -84,8 +84,8 @@ These instructions will get you a copy of the project up and running on your loc
 1.  **Clone the repository:**
 
     ```sh
-    git clone https://github.com/[jdelaude]/Rho-Aias.git
-    cd Rho-Aias
+    git clone https://github.com/jdelaude/rho-aias.git
+    cd rho-aias
     ```
 
 2.  **Install dependencies:**
@@ -105,7 +105,7 @@ These instructions will get you a copy of the project up and running on your loc
     - Navigate to `chrome://extensions` in your browser.
     - Enable "Developer mode" in the top right corner.
     - Click "Load unpacked".
-    - Select the `Rho Aias-copilot/dist` directory that was created by the build process.
+    - Select the `rho-aias/dist` directory that was created by the build process.
 
 The extension should be active. Navigate to `chat.openai.com` to see it in action.
 
@@ -120,7 +120,3 @@ The MVP is focused on creating a complete, polished experience for a single plat
 - **[v0.4.0] Analytics & Insights:** A dashboard for users to review session history and understand their own interaction patterns.
 
 ---
-
-## License
-
-Copyright (C) 2025 Julien Delaude all right reserved

@@ -67,7 +67,7 @@ graph TD
 
 ## Tech Stack
 
-- **Language:** JavaScript (ES6+)
+- **Language:** TypeScript (5.9.3)
 - **Environment:** Node.js (v18+) for development
 - **Browser API:** Chrome Extension Manifest V3
 - **Bundler:** Vite

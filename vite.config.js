@@ -22,8 +22,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         // We tell Vite: "These are the two independent brains"
-        background: resolve(__dirname, "src/background/index.js"),
-        content: resolve(__dirname, "src/content/index.js"),
+        background: resolve(__dirname, "src/background/index.ts"),
+        content: resolve(__dirname, "src/content/index.ts"),
       },
       output: {
         // Keep the filenames simple so manifest.json can find them

@@ -1,6 +1,6 @@
 # Rho Aias
 
-> A client-side co-pilot for mindful human-AI interaction.
+> A client-side guardian for mindful human-AI interaction.
 
 Rho Aias is a browser extension that acts as a cognitive safety layer for interactions with Large Language Models. It is designed to detect and mitigate the formation of the **Autocatalytic Epistemic Loop (AEL)**, also known as AI induced 'psychosis'. Rho Aias provides real-time diagnostics and context-aware tools to re-introduce healthy friction to maintain cognitive sovereignty.
 

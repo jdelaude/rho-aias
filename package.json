@@ -1,7 +1,7 @@
 {
-  "name": "rho-aias-copilot",
+  "name": "rho-aias",
   "version": "0.1.0",
-  "description": "A client-side co-pilot for mindful human-AI interaction.",
+  "description": "A client-side guardian for mindful human-AI interaction.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,0 +1,34 @@
+{
+  "name": "Rho Aias Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // Set the default user to 'node' (security best practice)
+  "remoteUser": "node",
+
+  // Features allow us to add tools easily without writing complex Docker code
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  // Customize VS Code inside the container
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "github.vscode-pull-request-github"
+      ]
+    }
+  },
+
+  // This runs automatically after the container is created
+  // It installs your project dependencies
+  "postCreateCommand": "npm install"
+}

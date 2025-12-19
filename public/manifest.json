@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Rho Aias",
+  "version": "0.1.0",
+  "description": "A cognitive safety layer for LLM interactions.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+  "background": {
+    "service_worker": "src/background/index.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["src/content/index.js"],
+      "css": ["src/content/ui/style.css"]
+    }
+  ]
+}

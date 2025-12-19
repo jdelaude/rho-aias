@@ -1,7 +1,7 @@
 {
   "name": "rho-aias",
   "version": "0.1.0",
-  "description": "A client-side guardian for mindful human-AI interaction.",
+  "description": "Client-side Cognitive Security Project - Human-Computer Interaction (HCI).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

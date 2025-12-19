@@ -1,6 +1,6 @@
-# Rho Aias
+# RhoAias - Cognitive Security
 
-> A client-side guardian for mindful human-AI interaction.
+> Client-side Cognitive Security Project - Human-Computer Interaction (HCI).
 
 Rho Aias is a browser extension that acts as a cognitive safety layer for interactions with Large Language Models. It is designed to detect and mitigate the formation of the **Autocatalytic Epistemic Loop (AEL)**, also known as AI induced 'psychosis'. Rho Aias provides real-time diagnostics and context-aware tools to re-introduce healthy friction to maintain cognitive sovereignty.
 
@@ -8,7 +8,7 @@ Rho Aias is a browser extension that acts as a cognitive safety layer for intera
 
 ## Core Features (MVP)
 
-#### 1. The Aura: Cognitive Feedback
+#### 1. The Aura: Biomimetic Cognitive Negative Feedback
 
 A single, ambient UI element (a thin frame) that provides permanent feedback on the health of the current conversation. Its color shifts from White (healthy, exploratory) to Yellow (warning, looping) to Red (critical, decoupled), reflecting the real-time AEL Threat Score.
 

@@ -1,7 +1,7 @@
 {
   "name": "rho-aias",
   "version": "0.1.0",
-  "description": "Client-side Cognitive Safety - Human-Computer Interaction (HCI).",
+  "description": "Client-side Cognitive Safety Project - Human-Computer Interaction (HCI).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +11,7 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.33",
     "@types/chrome": "^0.1.32",
     "@types/node": "^25.0.3",
     "eslint": "^8.0.0",

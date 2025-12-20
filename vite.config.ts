@@ -8,7 +8,7 @@ const copyManifest = () => {
     name: "copy-manifest",
     writeBundle() {
       fs.copyFileSync("public/manifest.json", "dist/manifest.json");
-      // Copy icons if you have them, otherwise skip
+      // Copy icons
       // fs.copyFileSync('public/assets/icon.png', 'dist/icon.png');
     },
   };
@@ -21,12 +21,10 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        // We tell Vite: "These are the two independent brains"
         background: resolve(__dirname, "src/background/index.ts"),
         content: resolve(__dirname, "src/content/index.ts"),
       },
       output: {
-        // Keep the filenames simple so manifest.json can find them
         entryFileNames: "src/[name]/index.js",
         chunkFileNames: "assets/[name].js",
         assetFileNames: "assets/[name].[ext]",

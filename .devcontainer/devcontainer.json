@@ -3,16 +3,25 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-
-  // Set the default user to 'node' (security best practice)
   "remoteUser": "node",
 
-  // Features allow us to add tools easily without writing complex Docker code
   "features": {
+    // 1. Install Zsh, Oh My Zsh, and non-root user utilities
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "configureZshAsDefaultShell": "true",
+      "installOhMyZsh": "true",
+      "username": "node",
+      "upgradePackages": "false"
+    },
+    // 2. Install GitHub CLI (The missing piece from previous iteration)
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    // 3. Docker support (for dps/dlogs aliases)
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+    // 4. Git support
     "ghcr.io/devcontainers/features/git:1": {}
   },
 
-  // Customize VS Code inside the container
   "customizations": {
     "vscode": {
       "settings": {
@@ -28,7 +37,6 @@
     }
   },
 
-  // This runs automatically after the container is created
-  // It installs your project dependencies
-  "postCreateCommand": "npm install"
+  // This runs AFTER the features are installed
+  "postCreateCommand": "bash .devcontainer/post-create.sh && npm install"
 }

@@ -1,2 +1,2 @@
-export {}; // Makes it a module
+export {};
 console.log("System initializing...");

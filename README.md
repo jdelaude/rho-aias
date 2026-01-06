@@ -65,16 +65,6 @@ graph TD
 
 ---
 
-## Tech Stack
-
-- **Language:** TypeScript (5.9.3)
-- **Environment:** Node.js (v18+) for development
-- **Browser API:** Chrome Extension Manifest V3
-- **Bundler:** Vite
-- **Linting/Formatting:** ESLint + Prettier
-
----
-
 ## Project Roadmap
 
 The MVP is focused on creating a complete, polished experience for a single platform. The future direction includes:
